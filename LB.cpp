@@ -6,7 +6,12 @@ This program is designed to operate an automated trailer loader and unloader.  T
 between trucks and mow the yard with no measley human interaction.
 
 60' extendable arm to reach into the 53' trailer.
-Need to adjust for trailer movement
+Need to adjust for trailer slope orientation and movement.
+Lift head will need to pivot left and right 90 degrees.  Tilt forward and back 10 degrees.  Extend 10', shift 3' left and right
+Cameras for left, right, top, bottom on head.
+Camera on power unit.
+Rechargable power.
+4000 lb lifting capacity.
 
 Error History
 
