@@ -5,6 +5,9 @@ g++ -Wall -lpthread -o LB LB.cpp -lpigpio -lrt -std=c++14
 This program is designed to operate an automated trailer loader and unloader.  The goal is to cue pallets for loading
 between trucks and mow the yard with no measley human interaction.
 
+60' extendable arm to reach into the 53' trailer.
+Need to adjust for trailer movement
+
 Error History
 
 If the files do not close correctly it may leave a pigpio.pid file open that will prevent the pigpio from initializing the next time it runs
