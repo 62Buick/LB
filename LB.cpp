@@ -2,27 +2,8 @@
 To compile use:
 g++ -Wall -lpthread -o LB LB.cpp -lpigpio -lrt -std=c++14
 
-This program is designed to contol a lawn mower.  The goal is to mow the yard with no measley human interaction.
-
-The current status is that it will read 4 sensors on the mower to monitor contact with objects and stop or turn away from them.
-
-The detail of how the switches are wired are show in the initialization section.
-
-The pi will also take a picture and save it or email it to a specified address.  I plan to eventually use the save photos to look
-for obstructions and identify the mowers location and orientation.  Location will be x,y,z and orientation will track a heading.
-
-I think that the obstructions will be recorded by location, color, and identification (ie rock, house, fence...).  I would like the pi to ask for the identification.
-
-Several actions will be time controlled.
-	Check location every 1 minute while mowing.  (record approximate location based on heading and speed)
-	Take a photo every 30 minutes.
-        Take and email a photo every 2 hours. 
-        Mow every 7 days.
-
-Future adds
-Battery monitoring and self recharging.
-Georeference with sun, moon, stars...
-Moving object identification and avoidance.
+This program is designed to operate an automated trailer loader and unloader.  The goal is to cue pallets for loading
+between trucks and mow the yard with no measley human interaction.
 
 Error History
 
