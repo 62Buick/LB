@@ -18,6 +18,59 @@ Error History
 If the files do not close correctly it may leave a pigpio.pid file open that will prevent the pigpio from initializing the next time it runs
 Fix it by issuing a "sudo killall pigpiod" command.
 
+Startup
+Safety check 
+Pick pallet
+  Confirm pallet ID
+    Set aside if needed
+  Report pallet picked
+  Check pallet dimensions 
+  Extend arm to correct Z
+  Rotate head to align with pick
+  Set vertical 
+  Extend head to correct Zh 
+  Lift pallet
+  Confirm weight
+  Confirm stability
+  Rotate head to 0. 
+Verify existing box location and orientation (x y z at entrance with rotation about axis x y z)
+  Confirm opening
+  Confirm orientation 
+  Look for open slots
+  Select slot
+Put pallet
+  Set fork height
+  Extend head to correct Z -4’
+    Check X and Y every 10%
+  Adjust Fork X and Y for placement
+  Verify space
+  Place pallet
+    Extend head to final Z
+    Adjust X to final
+    Lower pallet until load decreases. 
+    Tilt head forward
+    Retract head
+    Level head
+    Center head
+    Confirm placement
+    Take photo
+    Report pallet loaded
+    Retract arm
+  
+Power Unit
+Wheeled with out riggers 
+Battery with power option
+Stepper chain drive arm and head. 
+
+Start with pallet on floor, or on low rollers?  Floor will allow most flexibility but requires more slab impacts. 
+
+Research
+Stepper motor torque and rpm
+Controllers
+Cameras
+Laser pointers
+3D positioning
+
 */
 
 #include <iostream>
